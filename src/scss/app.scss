@@ -1,0 +1,23 @@
+$selectionColor: #23a6d5;
+$darkThemeLogo: rgb(245, 224, 103);
+$whiteNemeTextColor: rgb(34, 36, 169);
+
+$cardTitleColor:  rgb(26 28 92 / 84%);;
+$cardSubTitleColor: rgb(93, 93, 132);
+
+$darkThemeNameColor: rgb(245, 224, 103);
+$darkThemeCardTitleText: rgb(255, 255, 255);
+$darkThemeCardSubtitleText: rgb(161, 161, 161);
+
+// Core
+@import 'core/mixins';
+@import 'core/reset';
+@import 'core/fonts';
+@import 'core/base';
+
+// Parts
+@import 'parts/main';
+
+
+
+

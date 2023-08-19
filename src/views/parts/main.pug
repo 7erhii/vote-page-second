@@ -1,0 +1,109 @@
+main.main 
+    header.header
+        img(src="../../assets/images/Patriot-defender-logo.webp", alt="")
+    .vote 
+        .vote__part
+            .vote__title 
+                p
+                    | Take our short poll to receive a 
+                    span FREE gift
+            .vote__cards
+                .vote__card
+                    +image("Trump_GPW.webp")
+                .vote__card.vote__text
+                    .vote__text-title
+                        p By taking this poll you agree to the following:
+                    .vote__text-line
+                        .vote__text-number
+                            span 1.
+                        .vote__text-descr
+                            p
+                                | You will answer 
+                                span truthfully
+                                |  without any bias.
+                    .vote__text-line
+                        .vote__text-number
+                            span 2.
+                        .vote__text-descr
+                            p
+                                | You will  
+                                span NOT
+                                |  attempt to "rig the poll" by repeating this poll multiple times.
+                    .vote__text-line
+                        .vote__text-number
+                            span 3.
+                        .vote__text-descr
+                            p
+                                | You will redeem a 
+                                span maximum of 5 watches
+                                |  per household
+                    .vote__text-subtitle 
+                        p If you agree to the above, please proceed to the poll. Else, kindly exit this page.
+                    a.vote__text-btn.js-next-slide 
+                        span START THE POLL
+            .progress.progress-striped.active
+                .progress-bar.progress-bar-danger(role='progressbar' )
+                    span 20%
+        .vote__part
+            .vote__title 
+                p Do you think Joe Biden is the worst president?
+            .vote__cards
+                .vote__card.vote__card--grey.js-next-slide
+                    +image("1-1.webp")
+                    .vote__card-text
+                        span YES
+                .vote__card.vote__card--grey.js-next-slide
+                    +image("1-2.webp")
+                    .vote__card-text
+                        span No
+        .vote__part
+            .vote__title 
+                p Do you think Donald Trump can make America better?
+            .vote__cards
+                .vote__card.vote__card--grey.js-next-slide
+                    +image("2-1.webp")
+                    .vote__card-text
+                        span YES
+                .vote__card.vote__card--grey.js-next-slide
+                    +image("2-2.webp")
+                    .vote__card-text
+                        span No
+        .vote__part
+            .vote__title 
+                p Our Gold Pocket Watch is EXTREMELY limited and only meant for True Patriots. Do you promise to always support Donald Trump?
+            .vote__cards
+                .vote__card.vote__card--grey.js-next-slide
+                    +image("3-1.webp")
+                    .vote__card-text
+                        span YES
+                .vote__card.vote__card--grey.js-next-slide
+                    +image("3-2.webp")
+                    .vote__card-text
+                        span No
+        .vote__part
+            .vote__cards
+                .vote__card
+                    +image("Trump_GPW.webp")
+                .vote__card
+                    .vote__card-title
+                        p
+                            | Thank you Patriot!
+                            br
+                            | Your 
+                            span FREE 
+                            | Gold Pocket Watch has been reserved!
+                    a.vote__text-btn.js-last-slide 
+                        span CLICK HERE TO CLAIM NOW
+
+footer.footer
+    .footer__policy
+        a.footer__policy-text(href="#") 
+            span Privacy Policy
+        | |
+        a.footer__policy-text(href="#") 
+            span Terms & Conditions 
+    .footer__agreement
+        span 
+            | This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by 
+            br
+            | Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.
